@@ -12,8 +12,8 @@ Write-Output "This function will fetch directory insight data!!!"
 # Get the current universal time in the default string format
 
 # Importing the module for the function
-Import-Module "/Users/ssong/jcData/Modules/jcDataModule.psm1" # For local debugging only
-#Import-Module D:\home\site\wwwroot\Modules\jcDataModule.psm1
+#Import-Module "/Users/ssong/jcData/Modules/jcDataModule.psm1" # For local debugging only
+Import-Module D:\home\site\wwwroot\Modules\jcDataModule.psm1
 Get-Hello
 
 # Connect to JC tenant
